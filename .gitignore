@@ -1,0 +1,22 @@
+# виртуальное окружение
+.venv/
+venv/
+
+# кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# настройки IDE/редакторов
+.vscode/
+.idea/
+*.code-workspace
+
+# данные и результаты, которые не нужны в репозитории
+addresses.csv
+addresses_geocoded.csv
+*.log
+
+# файл с ключом Google API
+google_api_key.txt
